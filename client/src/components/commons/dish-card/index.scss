@@ -1,0 +1,21 @@
+.dish-card {
+  width: 234px;
+  height: 234px;
+  position: relative;
+  .dish-card__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  .dish-card__content{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 120px;
+    height: 32px;
+    padding: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

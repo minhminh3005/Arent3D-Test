@@ -1,0 +1,37 @@
+.blog-card__container {
+  width: 234px;
+  height: 234px;
+  .blog-card__content {
+    width: 100%;
+    height: 145px;
+    position: relative;
+    .blog-card__img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    .blog-card__content {
+      position: absolute;
+      left: 0px;
+      bottom: 0px;
+      width: 120px;
+      height: 32px;
+      padding: 7px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .blog-card__subtitle1 {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 0.075px;
+  }
+  .blog-card__subtitle2 {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.06px;
+  }
+}

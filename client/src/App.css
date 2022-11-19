@@ -1,0 +1,11 @@
+html,
+body {
+  font-family: Noto SansCJK JP, Inter;
+}
+
+body {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}

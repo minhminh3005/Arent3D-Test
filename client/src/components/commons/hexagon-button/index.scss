@@ -1,0 +1,20 @@
+.hexagon {
+  width: 134px;
+  height: 134px;
+  background: linear-gradient(155.89deg, #FFCC21 8.26%, #FF963C 91.18%);;
+  clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  position: relative;
+  .hexagon__icon{
+    font-size: 4rem;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .hexagon__title{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%,-50%);
+  }
+}
